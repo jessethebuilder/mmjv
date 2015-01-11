@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3113532089">
+    <data-source source="LOCAL" name="Rails mmjv: development" uuid="158acbdc-66c5-47a2-9ca1-844098cdcaa7">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/mmjv</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfc9dfcbdfd8dfc6dfdedfc5dfc4dfc6dfcbdfd9dfc3dfdedfcfdfd8</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.2-1002.jdbc4.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails mmjv: test" uuid="421d7896-991f-4778-bded-8d9dd2a22d8e">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/mmjv_test</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfc9dfcbdfd8dfc6dfdedfc5dfc4dfc6dfcbdfd9dfc3dfdedfcfdfd8</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.2-1002.jdbc4.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails mmjv: production" uuid="7491898d-d236-4728-8128-dadff156c4bf">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:mmjv_production</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.2-1002.jdbc4.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+

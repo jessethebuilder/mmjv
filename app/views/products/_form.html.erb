@@ -1,0 +1,23 @@
+<div class="product_form form_block">
+  <%= form_for(@product) do |f| %>
+    <%= error_row(@product) %>
+
+    <%= content_tag :div, :class => 'row' do %>
+      <%= bootstrap_text_field :name, f %>
+      <%= bootstrap_select :product_type, f, array_for_select(Product.types) %>
+      <%= bootstrap_text_field :price, f %>
+    <% end %>
+
+    <%= content_tag :div, :class => 'row' do %>
+      <%= bootstrap_text_field :thc, f, alt_label: 'THC Concentration' %>
+      <%= bootstrap_text_field :cbd, f, alt_label: 'CBD Concentration' %>
+      <%= bootstrap_text_field :butane, f, alt_label: 'Butane Concentration' %>
+    <% end %>
+
+    <div class="row">
+      <%= image_select
+    </div>
+
+    <%= bootstrap_submit_row f %>
+  <% end %>
+</div><!-- product form -->
