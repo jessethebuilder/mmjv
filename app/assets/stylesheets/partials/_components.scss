@@ -1,0 +1,18 @@
+/*lists, text blocks, and other styling elements that may appear anywhere thoughout the site.
+  1- Lists
+    a- .spec_list - for listing specifications of this or that
+
+*/
+
+// 1. Lists
+
+ul.spec_list{
+  list-style: none;
+  padding-left: 10px;
+
+  li{
+    border-bottom: 1px solid $shade_med;
+    font-size: 24px;
+    padding-top: 16px;
+  }
+}

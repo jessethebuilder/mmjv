@@ -5,7 +5,7 @@ def seed_img(path)
 end
 
 def faker_sentences(max: 10)
-  Faker::Lorem.sentences(sentence_count = Random.rand(1..max)).join('. ')
+  Faker::Lorem.sentences(sentence_count = Random.rand(1..max)).join(' ')
 
 end
 
@@ -37,7 +37,7 @@ s.save!
   p.product_type = ProductType.all.sample
 
   3.times do
-    p.imgs << seed_img('temp/mmj_bud.jpg')
+    p.imgs << seed_img(['temp/mmj_bud.jpg', 'temp/bud_transparent.png'].sample)
   end
   p.save!
 end

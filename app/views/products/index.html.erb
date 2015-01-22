@@ -4,9 +4,12 @@
 
 
     <% @products_hash.each do |k, v| %>
-      <h2>
+      <%= content_tag :h2, :id => k.name do %>
         <%= k.name %>
-      </h2>
+        <small>
+          <%= k.description.to_s %>
+        </small>
+      <% end %>
       <%= render :partial => 'product_table', :locals => {:products => v} %>
     <% end %>
 

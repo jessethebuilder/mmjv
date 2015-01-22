@@ -14,33 +14,60 @@
   </div><!-- row -->
 
   <div class="row">
-    <div class="col-sm-8">
 
+    <div id="product_batch_info" class="col-sm-6">
+      <h2>
+        Batch Info
+      </h2>
+      <p>
+        <%= @product.batch_description.to_s %>
+      </p>
+      <ul class="spec_list">
+        <li>
+          THC: <%= display_thc(@product) %>
+        </li>
+        <li>
+          CBD: <%= display_cbd(@product) %>
+        </li>
+        <li>
+          Butane (ppm): <%= display_butane(@product) %>
+        </li>
+        <li>
+          <strong>
+            Donation: <%= number_to_currency(@product.donation, :unit => '') %>
+          </strong>
+        </li>
+      </ul>
 
-    </div>
-
-    <div class="col-sm-4">
-      <div class="product_spec">
-        THC: <%= display_thc(@product) %>
-      </div>
-      <div class="product_spec">
-        CBD: <%= display_cbd(@product) %>
-      </div>
-      <div class="product_spec">
-        Butane (ppm): <%= display_butane(@product) %>
+      <div id="buy_product">
+        <%= link_to_function 'Order', "$('#express_modal').modal('show')", :class => 'btn btn-primary' %>
       </div>
     </div><!-- col -->
+
+    <div class="col-sm-6">
+      <%# @product.imgs.each do |i| %>
+        <% i = @product.imgs.sample %>
+        <%= link_to i.image.url do %>
+          <%= image_tag i.image.url(:gallery) %>
+        <% end %>
+
+      <%# end %>
+
+    </div><!-- col -->
+
   </div>
     <!--<div class="col-sm-4"></div>-->
+  <%= express_modal('Order') do %>
+    <h4>We are implementing online ordering.<br><br>
+      In the meantime, to place an order, call or text us at
+        <%= link_to '360-670-9312', 'tel:3606709312' %> or email us at
+        <%= mail_to 'jesse@medicalmarijuanavendors.com' %>.
+    </h4>
+
+  <% end %>
 </div><!-- container -->
 
 
 
 
-
-
-<p>
-  <strong>Price:</strong>
-  <%= @product.donation %>
-</p>
 
