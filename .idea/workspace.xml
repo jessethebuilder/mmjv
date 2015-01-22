@@ -1,216 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f562a5ae-28db-4d01-8fd8-c518353824bf" name="Default" comment="Structure SCSS&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/2/20141018_172155.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/temp/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/1/baby_giving_the_finger..jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/temp/bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/12/bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/14/bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/15/bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/16/bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/17/bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/2/bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/21/bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/23/bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/25/bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/26/bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/27/bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/28/bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/3/bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/30/bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/5/bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/6/bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/7/bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/8/bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/9/bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/2/gallery_20141018_172155.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/1/gallery_baby_giving_the_finger..jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/12/gallery_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/14/gallery_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/15/gallery_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/16/gallery_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/17/gallery_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/2/gallery_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/21/gallery_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/23/gallery_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/25/gallery_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/26/gallery_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/27/gallery_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/28/gallery_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/3/gallery_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/30/gallery_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/5/gallery_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/6/gallery_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/7/gallery_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/8/gallery_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/9/gallery_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/1/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/10/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/11/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/12/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/13/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/14/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/15/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/16/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/17/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/18/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/19/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/2/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/20/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/21/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/22/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/23/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/24/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/25/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/26/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/27/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/28/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/29/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/3/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/30/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/4/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/5/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/6/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/7/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/8/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/9/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/tmp/1421964763-3740-0828/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/tmp/1421964764-3740-8894/gallery_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/temp/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/1/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/10/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/11/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/12/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/13/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/14/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/15/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/16/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/17/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/18/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/19/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/2/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/20/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/21/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/22/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/23/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/24/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/25/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/26/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/27/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/28/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/29/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/3/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/30/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/4/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/5/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/6/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/7/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/8/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/9/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/tmp/1421964763-3740-0828/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/tmp/1421964764-3740-8894/mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/2/thumb_20141018_172155.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/1/thumb_baby_giving_the_finger..jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/12/thumb_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/14/thumb_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/15/thumb_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/16/thumb_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/17/thumb_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/2/thumb_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/21/thumb_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/23/thumb_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/25/thumb_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/26/thumb_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/27/thumb_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/28/thumb_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/3/thumb_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/30/thumb_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/5/thumb_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/6/thumb_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/7/thumb_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/8/thumb_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/9/thumb_bud_transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/1/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/10/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/11/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/12/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/13/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/14/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/15/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/16/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/17/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/18/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/19/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/2/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/20/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/21/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/22/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/23/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/24/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/25/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/26/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/27/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/28/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/29/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/3/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/30/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/4/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/5/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/6/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/7/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/8/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/img/image/9/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/tmp/1421964763-3740-0828/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/tmp/1421964764-3740-8894/thumb_mmj_bud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20150112030340_create_img.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20150116023951_create_product_types.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20150116033522_create_suppliers.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20150118091328_add_donation_owed_to_products.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20150122011310_add_menu_index_to_product_type.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/partials/_components.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/partials/_element_specific.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/product_types/_form.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/suppliers/_form.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/partials/_typography.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/product_types/edit.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/suppliers/edit.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/img.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/product_types/index.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/suppliers/index.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/product_types/index.json.jbuilder" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/suppliers/index.json.jbuilder" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/product_types/new.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/suppliers/new.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/product_type.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/product_type_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/product_types.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/product_types_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/product_types_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/helpers/product_types_helper_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/product_types/show.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/suppliers/show.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/product_types/show.json.jbuilder" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/suppliers/show.json.jbuilder" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/supplier.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/supplier_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/suppliers.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/suppliers_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/suppliers_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/helpers/suppliers_helper_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/products/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/partials/_global.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/partials/_global.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/_product_table.html.erb" afterPath="$PROJECT_DIR$/app/views/products/_product_table.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/parts/_top_nav.html.erb" afterPath="$PROJECT_DIR$/app/views/parts/_top_nav.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/modules/_variables.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/modules/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/products/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/index.html.erb" afterPath="$PROJECT_DIR$/app/views/products/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/main.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/show.html.erb" afterPath="$PROJECT_DIR$/app/views/products/show.html.erb" />
+    <list default="true" id="f562a5ae-28db-4d01-8fd8-c518353824bf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/mmjv.iml" afterPath="$PROJECT_DIR$/.idea/mmjv.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mmjv.iws" />
@@ -266,10 +61,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="9" selection-start="1705" selection-end="1705" vertical-scroll-proportion="0.8473054" vertical-offset="522" max-vertical-offset="1343">
+            <state line="64" column="9" selection-start="1705" selection-end="1705" vertical-scroll-proportion="-21.76923" vertical-offset="522" max-vertical-offset="1343">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="93" column="24" selection-start="2159" selection-end="2159" vertical-scroll-proportion="1.6807228" vertical-offset="1023" max-vertical-offset="1717">
               <folding />
             </state>
           </provider>
@@ -320,15 +124,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_element_specific.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/partials/_element_specific.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="253" selection-end="253" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="323">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -354,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/parts/_multi_image_select.html.erb" />
         <option value="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20150111204834_add_images_to_product.rb" />
@@ -405,6 +199,7 @@
         <option value="$PROJECT_DIR$/app/views/products/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/products/show.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -837,14 +632,18 @@
       <created>1421955605419</created>
       <updated>1421955605420</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Product Index and Show">
+      <created>1421967250681</created>
+      <updated>1421967250681</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827586" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793522" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -855,7 +654,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34412956" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48852903" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48852903" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -879,7 +678,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Structure SCSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Structure SCSS" />
+    <MESSAGE value="Product Index and Show" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product Index and Show" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -887,11 +687,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../farm_tools/app/assets/stylesheets/farm_tools.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20150112030340_create_img.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="22" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289" />
@@ -1194,7 +989,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="9" selection-start="1705" selection-end="1705" vertical-scroll-proportion="0.8473054" vertical-offset="522" max-vertical-offset="1343">
+        <state line="64" column="9" selection-start="1705" selection-end="1705" vertical-scroll-proportion="-21.76923" vertical-offset="522" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="24" selection-start="2159" selection-end="2159" vertical-scroll-proportion="1.6807228" vertical-offset="1023" max-vertical-offset="1717">
           <folding />
         </state>
       </provider>
