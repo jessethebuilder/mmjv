@@ -46,7 +46,7 @@ class ProductsController < ApplicationController
     def product_params
       params.require(:product).permit(:name, :description, :batch_description, :product_type_id, :thc, :cbd, :butane,
                                       {:imgs => []}, :remote_imgs_url, :imgs_cache,
-                                       :donation, :quantity)
+                                       :donation, :quantity, :supplier_id)
     end
 end
 
