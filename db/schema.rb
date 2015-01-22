@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150110211017) do
+ActiveRecord::Schema.define(version: 20150122011310) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -34,16 +34,38 @@ ActiveRecord::Schema.define(version: 20150110211017) do
     t.datetime "updated_at"
   end
 
+  create_table "imgs", force: true do |t|
+    t.integer  "has_img_id"
+    t.string   "has_img_type"
+    t.string   "image"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "product_types", force: true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "menu_index"
+  end
+
   create_table "products", force: true do |t|
     t.string   "name"
     t.text     "description"
-    t.string   "product_type"
+    t.text     "batch_description"
     t.string   "thc"
     t.string   "cbd"
     t.string   "butane"
-    t.float    "price"
+    t.float    "donation"
+    t.float    "quantity",          default: 0.0
+    t.string   "slug"
+    t.string   "leafly_slug"
+    t.integer  "supplier_id"
+    t.integer  "product_type_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.float    "donation_owed",     default: 0.0
   end
 
   create_table "social_networking_profiles", force: true do |t|
@@ -55,6 +77,15 @@ ActiveRecord::Schema.define(version: 20150110211017) do
     t.string   "twitter_handle"
     t.string   "has_social_networking_id"
     t.string   "has_social_networking_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "suppliers", force: true do |t|
+    t.string   "name"
+    t.string   "phone"
+    t.string   "email"
+    t.string   "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

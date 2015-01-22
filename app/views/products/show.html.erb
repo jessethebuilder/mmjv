@@ -1,39 +1,46 @@
-<p id="notice"><%= notice %></p>
+<div id="product" class="container">
+  <% if user_is_admin? %>
+    <%= quick_options ['edit', edit_product_path(@product)] %>
+  <% end %>
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>
+        <%= @product.name %>
+        <small>
+          <%= @product.description.to_s %>
+        </small>
+      </h1>
+    </div>
+  </div><!-- row -->
 
-<p>
-  <strong>Name:</strong>
-  <%= @product.name %>
-</p>
+  <div class="row">
+    <div class="col-sm-8">
 
-<p>
-  <strong>Description:</strong>
-  <%= @product.description %>
-</p>
 
-<p>
-  <strong>Product type:</strong>
-  <%= @product.product_type %>
-</p>
+    </div>
 
-<p>
-  <strong>Thc:</strong>
-  <%= @product.thc %>
-</p>
+    <div class="col-sm-4">
+      <div class="product_spec">
+        THC: <%= display_thc(@product) %>
+      </div>
+      <div class="product_spec">
+        CBD: <%= display_cbd(@product) %>
+      </div>
+      <div class="product_spec">
+        Butane (ppm): <%= display_butane(@product) %>
+      </div>
+    </div><!-- col -->
+  </div>
+    <!--<div class="col-sm-4"></div>-->
+</div><!-- container -->
 
-<p>
-  <strong>Cbd:</strong>
-  <%= @product.cbd %>
-</p>
 
-<p>
-  <strong>Butane:</strong>
-  <%= @product.butane %>
-</p>
+
+
+
 
 <p>
   <strong>Price:</strong>
-  <%= @product.price %>
+  <%= @product.donation %>
 </p>
 
-<%= link_to 'Edit', edit_product_path(@product) %> |
-<%= link_to 'Back', products_path %>

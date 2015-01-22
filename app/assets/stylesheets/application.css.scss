@@ -1,15 +1,4 @@
-//-------------------------Variables ------------------------------
-$main_color: #00D447;
-
-//-------------------------Bootstrap-------------------------------
-$brand-primary: $main_color;
-
-//-------------------------Imports----------------------------
-@import 'bootstrap';
-@import 'quick_options';
-
-//---------------------Application Styles
-.page_content{
-  margin-top: 15px;
-}
-
+/*
+ *= require self
+ *= require main
+*/

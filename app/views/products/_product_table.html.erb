@@ -1,0 +1,40 @@
+<div class="table-responsive">
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th>Donation</th>
+      <!--<th></th>-->
+      <!--<th></th>-->
+      <th class="visible-lg-block visible-md-block"></th>
+
+      <th>Supplier</th>
+      <th>Thc</th>
+      <th>Cbd</th>
+      <th>Butane (ppm)</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <% products.each do |product| %>
+      <tr>
+        <td><%= link_to product.name, product_path(product) %></td>
+        <td><strong><%= number_to_currency(product.donation, :unit => '') %></strong></td>
+        <%# product.imgs.limit(3).each do |i| %>
+          <td class="visible-lg-block visible-md-block">
+            <% img = product.imgs.sample.image %>
+            <%= link_to img.url, :target => '_blank' do %>
+              <%= image_tag img.url(:thumb)  %>
+            <% end %>
+          </td>
+        <%# end %>
+
+        <td><%= product.supplier.name %></td>
+        <td><%= display_thc(product) %></td>
+        <td><%= display_cbd(product) %></td>
+        <td><%= display_butane(product) %></td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+</div>

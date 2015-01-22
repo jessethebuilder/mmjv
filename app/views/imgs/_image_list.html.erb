@@ -1,0 +1,12 @@
+<div id="image_list">
+  <% imgs.each do |i| %>
+    <%= link_to i.image.url, :target => '_blank' do %>
+      <%= image_tag i.image.url(version) %>
+    <% end %>
+
+    <!--<div>-->
+    <%= link_to('delete', img_path(i), :remote => true, :method => :delete, :class => 'text-danger') if i.id %>
+
+    <!--</div>-->
+  <% end %>
+</div>

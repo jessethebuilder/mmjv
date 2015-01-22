@@ -23,6 +23,15 @@ module ApplicationHelper
     html.html_safe
   end
 
+  def bootstrap_text_area(attr, form_builder, media_query: 'sm', rows: 6, col_span: 4, alt_label: nil)
+    html = bootstrap_form_col(media_query, col_span) do
+      str = form_builder.label attr, alt_label, :class => 'form-label'
+      str += form_builder.text_area attr, :class => 'form-control', :rows => rows
+      str
+    end
+    html.html_safe
+  end
+
   def bootstrap_select(attr, form_builder, options, media_query: 'sm', col_span: 4, alt_label: nil)
     html = bootstrap_form_col(media_query, col_span) do
       str = form_builder.label attr, alt_label, :class => 'form-label'
@@ -32,10 +41,14 @@ module ApplicationHelper
     html.html_safe
   end
 
+  def bootstrap_file_field(attr, form_builder, media_query: 'sm', col_span: 4, alt_label: nil)
+    #html =
+  end
+
   def bootstrap_submit_row(form_builder)
-    html = '<div class="row"><div class="col-sm-12">'
+    html = '<div class="row"><div class="col-sm-12"><div class="form-group">'
     html += form_builder.submit :class => 'btn btn-primary'
-    html += '</div></div>'
+    html += '</div></div></div>'
     html.html_safe
   end
 

@@ -1,6 +1,9 @@
-<h1>Editing product</h1>
+<div class="container">
+  <div id="edit_product">
+    <h1 class="page_title">Editing <%= link_to @product.strain %></h1>
 
-<%= render 'form' %>
+    <%= render 'form' %>
+  </div>
+</div>
 
-<%= link_to 'Show', @product %> |
-<%= link_to 'Back', products_path %>
+

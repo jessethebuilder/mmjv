@@ -1,10 +1,12 @@
 class ProductsController < ApplicationController
   before_action :set_product, only: [:show, :edit, :update, :destroy]
+  #before_action :set_product_type, only: [:index]
 
   respond_to :html
 
   def index
     @products = Product.all
+    @products_hash = Product.products_hash
     respond_with(@products)
   end
 
@@ -42,6 +44,10 @@ class ProductsController < ApplicationController
     end
 
     def product_params
-      params.require(:product).permit(:name, :description, :product_type, :thc, :cbd, :butane, :price)
+      params.require(:product).permit(:name, :description, :batch_description, :product_type_id, :thc, :cbd, :butane,
+                                      {:imgs => []}, :remote_imgs_url, :imgs_cache,
+                                       :donation, :quantity)
     end
 end
+
+

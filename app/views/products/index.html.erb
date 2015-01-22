@@ -3,46 +3,13 @@
     <%= quick_options(["New Product", new_product_path]) if user_is_admin? %>
 
 
+    <% @products_hash.each do |k, v| %>
+      <h2>
+        <%= k.name %>
+      </h2>
+      <%= render :partial => 'product_table', :locals => {:products => v} %>
+    <% end %>
 
-    <h1>Listing products</h1>
-
-    <table>
-      <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Product type</th>
-        <th>Thc</th>
-        <th>Cbd</th>
-        <th>Butane</th>
-        <th>Price</th>
-        <th></th>
-        <th></th>
-        <th></th>
-      </tr>
-      </thead>
-
-      <tbody>
-      <% @products.each do |product| %>
-        <tr>
-          <td><%= product.name %></td>
-          <td><%= product.description %></td>
-          <td><%= product.product_type %></td>
-          <td><%= product.thc %></td>
-          <td><%= product.cbd %></td>
-          <td><%= product.butane %></td>
-          <td><%= product.price %></td>
-          <td><%= link_to 'Show', product %></td>
-          <td><%= link_to 'Edit', edit_product_path(product) %></td>
-          <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-        </tr>
-      <% end %>
-      </tbody>
-    </table>
-
-    <br>
-
-    <%= link_to 'New Product', new_product_path %>
 
 
 

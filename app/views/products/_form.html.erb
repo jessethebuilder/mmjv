@@ -1,12 +1,14 @@
 <div class="product_form form_block">
-  <%= form_for(@product) do |f| %>
+  <%= form_for(@product, :multipart => true) do |f| %>
     <%= error_row(@product) %>
 
     <%= content_tag :div, :class => 'row' do %>
       <%= bootstrap_text_field :name, f %>
-      <%= bootstrap_select :product_type, f, array_for_select(Product.types) %>
-      <%= bootstrap_text_field :price, f %>
+      <%= bootstrap_select :product_type_id, f, for_select(ProductType.all, :name, :id) %>
+      <%= bootstrap_select :supplier_id, f, for_select(Supplier.all, :name, :id) %>
     <% end %>
+
+
 
     <%= content_tag :div, :class => 'row' do %>
       <%= bootstrap_text_field :thc, f, alt_label: 'THC Concentration' %>
@@ -14,9 +16,38 @@
       <%= bootstrap_text_field :butane, f, alt_label: 'Butane Concentration' %>
     <% end %>
 
-    <div class="row">
-      <%= image_select
-    </div>
+    <%= content_tag :div, class: 'row' do %>
+      <%= bootstrap_text_area :description, f, col_span: 6 %>
+      <%= bootstrap_text_area :batch_description, f, col_span: 6 %>
+
+    <% end %>
+
+    <div class="row well">
+      <div class="col-sm-4">
+        <div class="form-group">
+          <%= f.label :imgs, 'Images', class: 'control-label' %>
+          <%= f.file_field :imgs, :multiple => true, :class => 'form-control' %>
+        </div>
+
+        <!--<div class="form-group">-->
+          <%#= f.label :remote_imgs_url, :class => 'control-label' %>
+          <%#= f.text_field :remote_imgs_url, :class => 'form-control' %>
+        <!--</div>-->
+      </div><!-- col -->
+
+      <div class="col-sm-8">
+        <%= img_list @product.imgs %>
+
+      </div><!-- col -->
+
+    </div><!-- row -->
+
+    <%= content_tag :div, class: 'row' do %>
+      <%= bootstrap_text_field :donation, f, :alt_label => 'Donation Amount <small>per pound</small>'.html_safe %>
+      <%= bootstrap_text_field :quantity, f, :alt_label => 'Quantity <small>in pounds</small>'.html_safe %>
+      <%= bootstrap_text_field :donation_owed, f, :alt_label => 'Donation Owed <small>total</small>'.html_safe %>
+    <% end %>
+
 
     <%= bootstrap_submit_row f %>
   <% end %>

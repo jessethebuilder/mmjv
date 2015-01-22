@@ -2,12 +2,25 @@ class CreateProducts < ActiveRecord::Migration
   def change
     create_table :products do |t|
       t.string :name
+
       t.text :description
-      t.string :product_type
+      t.text :batch_description
+
       t.string :thc
       t.string :cbd
+
       t.string :butane
-      t.float :price
+
+      t.float :donation
+
+      t.float :quantity, :default => 0
+
+      t.string :slug
+      t.string :leafly_slug
+
+      t.integer :supplier_id
+
+      t.integer :product_type_id
 
       t.timestamps
     end
