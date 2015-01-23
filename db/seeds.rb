@@ -21,24 +21,24 @@ pt = ProductType.new name: 'Flowers',
                      :menu_index => 0
 pt.save!
 
-3.times do |i|
-  pt = ProductType.new :name => Faker::Name.last_name, :description => faker_sentences, :menu_index => i + 1
-  pt.save!
-end
+#3.times do |i|
+#  pt = ProductType.new :name => Faker::Name.last_name, :description => faker_sentences, :menu_index => i + 1
+#  pt.save!
+#end
 
 s = Supplier.new :name => Faker::Name.first_name
 s.user = u
 s.save!
 
-10.times do
-  p = Product.new :name => Faker::Company.bs, :description => faker_sentences, :batch_description => faker_sentences,
-                  :thc => Random.rand(1.0..30.0), :donation => Random.rand(300..600)
-  p.supplier = s
-  p.product_type = ProductType.all.sample
-
-  3.times do
-    p.imgs << seed_img(['temp/mmj_bud.jpg', 'temp/bud_transparent.png'].sample)
-  end
-  p.save!
-end
+#10.times do
+#  p = Product.new :name => Faker::Company.bs, :description => faker_sentences, :batch_description => faker_sentences,
+#                  :thc => Random.rand(1.0..30.0), :donation => Random.rand(300..600)
+#  p.supplier = s
+#  p.product_type = ProductType.all.sample
+#
+#  3.times do
+#    p.imgs << seed_img(['temp/mmj_bud.jpg', 'temp/bud_transparent.png'].sample)
+#  end
+#  p.save!
+#end
 #----------------End Production Data---------------------------------------------

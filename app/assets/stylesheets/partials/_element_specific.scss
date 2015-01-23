@@ -1,8 +1,8 @@
 /*-------------------------------------------------------------------------------
   1- Products
     a- Show
-      ii- #product_batch_info
-
+      i- #product_batch_info
+      ii- #buy_product
 
 --------------------------------------------------------------------------------*/
 
@@ -10,5 +10,8 @@
    // a. Show
 #product_batch_info{
   background-color: $shade_light;
-
+}
+#buy_product{
+  text-align: center;
+  padding-bottom: 20px;
 }
