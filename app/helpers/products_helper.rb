@@ -1,14 +1,14 @@
 module ProductsHelper
   def display_thc(product)
-    product.thc.nil? ? 'untested' : number_to_percentage(product.thc, :precision => 1)
+    product.thc.blank? ? 'untested' : number_to_percentage(product.thc, :precision => 1)
   end
 
   def display_cbd(product)
-    product.cbd.nil? ? 'untested' : number_to_percentage(product.cbd, :precision => 1)
+    product.cbd.blank? ? 'untested' : number_to_percentage(product.cbd, :precision => 1)
   end
 
   def display_butane(product)
-    product.butane.nil? ? 'n/a' : number_with_precision(product.butane, :precision => 2)
+    product.butane.blank? ? 'n/a' : number_with_precision(product.butane, :precision => 2)
   end
 
 end

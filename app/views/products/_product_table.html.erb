@@ -20,14 +20,13 @@
       <tr>
         <td><%= link_to product.name, product_path(product) %></td>
         <td><strong><%= number_to_currency(product.donation, :unit => '') %></strong></td>
-        <%# product.imgs.limit(3).each do |i| %>
+        <% product.imgs.limit(3).each do |img| %>
           <td class="visible-lg-block visible-md-block">
-            <% img = product.imgs.sample.image %>
             <%= link_to img.url, :target => '_blank' do %>
-              <%= image_tag img.url(:thumb)  %>
+              <%= image_tag img.url(:thumb) %>
             <% end %>
           </td>
-        <%# end %>
+        <% end %>
 
         <td><%= product.supplier.name %></td>
         <td><%= display_thc(product) %></td>

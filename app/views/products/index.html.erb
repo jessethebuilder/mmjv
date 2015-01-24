@@ -1,6 +1,6 @@
 <div id="products">
   <div class="container">
-    <%= quick_options(["New Product", new_product_path]) if user_is_admin? %>
+    <%= quick_options(["new", new_product_path]) if user_is_admin? %>
 
 
     <% @products_hash.each do |k, v| %>

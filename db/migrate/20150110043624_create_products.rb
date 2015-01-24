@@ -13,7 +13,7 @@ class CreateProducts < ActiveRecord::Migration
 
       t.float :donation
 
-      t.float :quantity, :default => 0
+      t.float :quantity
 
       t.string :slug
       t.string :leafly_slug

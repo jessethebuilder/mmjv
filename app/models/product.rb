@@ -28,6 +28,8 @@ class Product < ActiveRecord::Base
 
   validates :donation_owed, presence: true, numericality: {:greater_than_or_equal_to => 0}
 
+  validates :quantity, presence: true, presence: true, numericality: {:greater_than_or_equal_to => 0} #default 0
+
   has_many :imgs, :as => 'has_img', :dependent => :destroy
 
   PRODUCT_TYPES = %w|flower|

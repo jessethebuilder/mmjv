@@ -58,14 +58,14 @@ ActiveRecord::Schema.define(version: 20150122011310) do
     t.string   "cbd"
     t.string   "butane"
     t.float    "donation"
-    t.float    "quantity",          default: 0.0
+    t.float    "quantity"
     t.string   "slug"
     t.string   "leafly_slug"
     t.integer  "supplier_id"
     t.integer  "product_type_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.float    "donation_owed",     default: 0.0
+    t.float    "donation_owed"
   end
 
   create_table "social_networking_profiles", force: true do |t|
