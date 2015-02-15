@@ -30,15 +30,16 @@ s = Supplier.new :name => Faker::Name.first_name
 s.user = u
 s.save!
 
-#10.times do
-#  p = Product.new :name => Faker::Company.bs, :description => faker_sentences, :batch_description => faker_sentences,
-#                  :thc => Random.rand(1.0..30.0), :donation => Random.rand(300..600)
-#  p.supplier = s
-#  p.product_type = ProductType.all.sample
-#
-#  3.times do
-#    p.imgs << seed_img(['temp/mmj_bud.jpg', 'temp/bud_transparent.png'].sample)
-#  end
-#  p.save!
-#end
+10.times do
+  p = Product.new :name => Faker::Company.bs, :description => faker_sentences, :batch_description => faker_sentences,
+                  :thc => Random.rand(1.0..30.0), :donation => Random.rand(300..600), :quantity => Random.rand(0.25..10.0)
+  p.donation_owed = p.donation - 100
+  p.supplier = s
+  p.product_type = ProductType.all.sample
+
+  3.times do
+    p.imgs << seed_img(['temp/mmj_bud.jpg', 'temp/bud_transparent.png'].sample)
+  end
+  p.save!
+end
 #----------------End Production Data---------------------------------------------

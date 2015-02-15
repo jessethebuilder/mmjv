@@ -6,6 +6,8 @@
 //Footer
 #page_footer{
   background-color: $shade_light;
+  border-top: 1px solid $accent_dark;
+  box-shadow: 2px 2px $main_color;
   height: 200px;
 
 }
